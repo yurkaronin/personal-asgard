@@ -17,7 +17,7 @@
             <td>от&nbsp;20&nbsp;руб/кг</td>
           </tr>
         </table>
-        <a href="#ask-price__window-call" class="button--transparent">Запрос цены</a>
+        <button class="button--transparent ask-price__window-call">Запрос цены</button>
       </li>
       <li class="catalog-card product-in-stock">
         <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
@@ -34,7 +34,7 @@
             <td>от&nbsp;20&nbsp;руб/кг</td>
           </tr>
         </table>
-        <a href="#ask-price__window-call" class="button--transparent">Запрос цены</a>
+        <button class="button--transparent ask-price__window-call">Запрос цены</button>
       </li>
       <li class="catalog-card product-in-stock">
         <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
@@ -51,7 +51,7 @@
             <td>от&nbsp;19&nbsp;руб/кг</td>
           </tr>
         </table>
-        <a href="#ask-price__window-call" class="button--transparent">Запрос цены</a>
+        <button class="button--transparent ask-price__window-call">Запрос цены</button>
       </li>
       <li class="catalog-card product-in-stock">
         <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
@@ -68,7 +68,7 @@
             <td>от&nbsp;19&nbsp;руб/кг</td>
           </tr>
         </table>
-        <a href="#ask-price__window-call" class="button--transparent">Запрос цены</a>
+        <button class="button--transparent ask-price__window-call">Запрос цены</button>
       </li>
     </ul>
   </div>
@@ -78,18 +78,20 @@
 <div class="modal" id="ask-price-modal">
   <div class="modal__container">
     <h2 class="title">Отправить запрос на уточнение цены</h2>
-    <form class="main-form" action="">
+    <form class="main-form" action="" method="POST">
+      <input type="hidden" name="subject" value="Отправить запрос на уточнение цены">
+      <input type="hidden" name="product" value="">
       <div class="items-wrapper">
         <label class="main-form__label" for="ask-price-form__name">Введите имя</label>
-        <input class="main-form__field" type="text" id="ask-price-form__name">
+        <input class="main-form__field" type="text" id="ask-price-form__name" name="name" autocomplete="off" required>
         <label class="main-form__label" for="ask-price-form__telephone">Введите телефон</label>
-        <input class="main-form__field" type="tel" id="ask-price-form__telephone">
+        <input class="main-form__field phone" type="tel" id="ask-price-form__telephone" name="phone" autocomplete="off" required>
         <label class="main-form__label" for="ask-price-form__email">Куда отправить КП?</label>
-        <input class="main-form__field" type="email" id="ask-price-form__email">
+        <input class="main-form__field" type="email" id="ask-price-form__email" name="email" autocomplete="off" required>
       </div>
       <button class="button ask-price-button" type="submit">Узнать цену</button>
     </form>
-    <button class="button--transparent">
+    <button class="button--transparent" onclick="closeModal()">
       <img src="/images/icon__close.svg" title="Закрыть окно" alt="Иконка крестика">
     </button>
   </div>

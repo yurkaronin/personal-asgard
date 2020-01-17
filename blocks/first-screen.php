@@ -10,7 +10,7 @@
       <li class="advantages__item icon-delivery">Доставка по&nbsp;РФ от&nbsp;3&nbsp;дней</li>
     </ul>
     <!-- кнопка вызова модального окна  -->
-    <a href="#anchor-order-clacification" class="button">Получить коммерческое предложение</a>
+    <a href="#anchor-order-classification" class="button">Получить коммерческое предложение</a>
 
   </div>
 </section>

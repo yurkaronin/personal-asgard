@@ -18,6 +18,58 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+
+
+  <style>
+    
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: block;
+    }
+
+    .wrap-thanks {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+
+    .wrap-thanks__hb {
+      display: none;
+    }
+
+    .thanks {
+      text-align: center;
+    }
+
+    .thanks .thanks__text {
+      display: inline-block;
+      line-height: 1.1em;
+      font-size: 1.5em;
+    }
+
+    .thanks__redirect {
+      margin-top: 10px;
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    @media (max-width: 426px) {
+      .wrap-thanks__hb {
+        display: block;
+      }
+    }
+
+  </style>
+
 </head>
 
 <body>
@@ -25,29 +77,20 @@
   <?php include ("blocks/header.php");?>
   <!-- контент и подвал обёрнуты в div и спозиционированы как флекс элементы -->
   <div class="page-wrapper">
-    <main class="main">
-
-      <?php include ("blocks/first-screen.php");?>
-
-      <?php include ("blocks/production.php");?>
-
-      <?php include("blocks/classification.php");?>
-
-      <?php include ("blocks/benefits.php");?>
-
-      <?php include ("blocks/catalog.php");?>
-
-      <?php include ("blocks/related-products.php");?>
-
-      <?php include ("blocks/addition-catalog.php");?>
-
-      <?php include ("blocks/promo.php");?>
-
-      <?php include ("blocks/form.php");?>
-
+    <main>
+      <section class="thanks" style="padding-top: 100px;">
+        <div class="thanks__text">
+          <b>Спасибо!</b> Заявка успешно отправлена!<br> Наши менеджеры скоро с вами свяжутся!
+        </div>
+        <div class="thanks-redirect thanks__redirect">
+          Возврат через : <span class="thanks-redirect__number">10</span> сек.
+        </div>
+      </section>
     </main>
-
-    <?php include ("blocks/footer.php");?>
+    
+    <div class="footer-wrap">
+      <?php include ("blocks/footer.php");?>
+    </div>
   </div>
 
   <!-- Заказ обратного звонка - модалка  -->
@@ -76,6 +119,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 
   <script type="text/javascript" src="js/script.js"></script>
+
+  <script>
+
+    var num = 10;
+    $('.thanks-redirect__number').html(num);
+    var interval = setInterval(function () {
+      $('.thanks-redirect__number').html(--num);
+      if (num <= 0) {
+        clearInterval(interval);
+        window.location.href = "/";
+      }
+    }, 1000);
+
+  </script>
+  
 </body>
 
 </html>

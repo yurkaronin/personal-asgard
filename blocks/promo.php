@@ -10,7 +10,7 @@
       <span class="classification__sale-title">Оставьте заявку и&nbsp;получите стомость</span>
         <span class="classification__sale-subtitle">резиновой крошки, клеящих компонентов и&nbsp;пигментов для вашего вида бизнеса
           и&nbsp;объема</span>
-      <a href="#anchor-order-clacification" class="button--transparent">Рассчитать стоимость</a>
+      <a href="#anchor-order-classification" class="button--transparent">Рассчитать стоимость</a>
     </div>
 
   </div>

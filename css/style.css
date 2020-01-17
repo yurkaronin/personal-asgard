@@ -59,6 +59,10 @@ a {
   line-height: inherit;
   color: inherit; }
 
+button, a, select {
+  outline: none;
+}
+
 /* Стили для доступного сокрытия семантичного контента, который обидел дизайнер */
 .visually-hidden {
   position: absolute;
@@ -329,8 +333,13 @@ body {
   display: none; }
 
 @media (max-width: 1300px) {
+
+  .page-wrapper {
+    margin-top: 67.52px !important;
+  }
   .header {
-    position: relative;
+    /*position: relative;*/
+        top: 0px;
     z-index: 1;
     width: 100%;
     height: auto;
@@ -969,7 +978,9 @@ body {
   flex-wrap: wrap; }
 
 .classification__select-item {
-  max-width: 45%; }
+  max-width: 45%;
+  margin-bottom: 10px;  
+}
 
 .classification__select-item label {
   font-size: 14px;
@@ -986,7 +997,20 @@ body {
   width: 100%;
   background-color: #ffffff;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
+
+.classification__select-item input {
+  padding: 13px 35px 13px 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 120%;
+  color: #949494;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
 
 .classification__wrapper-button {
   position: absolute;
@@ -1883,8 +1907,12 @@ body {
 .modal {
   position: fixed;
   left: 0;
-  top: 10%;
-  right: 0; }
+  /*top: 10%;*/
+  /*right: 0;*/
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
 
 #callback-modal {
   display: none; }
@@ -1934,6 +1962,33 @@ body {
 .modal .button--transparent:focus {
   background-color: #fff; }
 
+.modal {
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100000;
+  background: rgba(0,0,0,0.4);
+}
+.modal .modal__container {
+  position: relative;
+  z-index: 100001;
+  position: relative;
+  background-color: #fff;
+  max-width: 500px;
+  padding: 5% 2%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .show-callback #callback-modal {
   display: block; }
 
@@ -1941,3 +1996,19 @@ body {
   display: block; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+label.error {
+    display: none !important;
+}
+
+textarea.error,
+select.error,
+input.error {
+    background: rgba(255, 0, 0, 0.21) !important;
+}
+
+.html-fixed {
+  overflow: hidden;
+}

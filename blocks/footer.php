@@ -63,22 +63,3 @@
   </div>
 </div>
 
-
-<!-- Заказ обратного звонка - модалка  -->
-<div class="modal" id="callback-modal">
-  <div class="modal__container">
-    <h2 class="title">Заказ звонка</h2>
-    <form class="main-form" action="">
-      <div class="items-wrapper">
-        <label class="main-form__label" for="callback-form__name">Введите имя</label>
-        <input class="main-form__field" type="text" id="callback-form__name">
-        <label class="main-form__label" for="callback-form__telephone">Введите телефон</label>
-        <input class="main-form__field" type="tel" id="callback-form__telephone">
-      </div>
-      <button class="button" type="submit">Перезвоните мне</button>
-    </form>
-    <button class="button--transparent">
-      <img src="/images/icon__close.svg" title="Закрыть окно" alt="Иконка крестика">
-    </button>
-  </div>
-</div>
