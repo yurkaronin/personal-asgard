@@ -1,12 +1,12 @@
 <section class="benefits" id="anchor-benefits">
   <div class="container">
-    <h2 class="visually-hidden">Выгодные условия поставки резиновой крошки для юрлиц и&nbsp;частных клиентов</h2>
-    <span class="title">Объёмы от&nbsp;100 тыс до&nbsp;10&nbsp;тонн. Доставка по&nbsp;РФ. Счета с&nbsp;НДС
+    <h2 class="visually-hidden">Выгодные условия поставки резиновой крошки для юр.лиц и&nbsp;частных клиентов</h2>
+    <span class="title">Объёмы от&nbsp;5 тонн. Доставка по&nbsp;РФ. Счета с&nbsp;НДС
       и&nbsp;без</span>
     <ul class="benefits__list">
       <li class="benefits__item icon-cargo">
-        <span class="benefits__item-title">3000 тонн</span>
-        <p>Мы&nbsp;производим более трёх тысяч тонн крошки в&nbsp;год. Принимаем заказы любых объемов</p>
+        <span class="benefits__item-title">1 500 тонн</span>
+        <p>Мы&nbsp;производим более полутора тысяч тонн крошки в&nbsp;год. Принимаем заказы любых объемов</p>
       </li>
       <li class="benefits__item icon-car--blue">
         <span class="benefits__item-title">100 тонн</span>

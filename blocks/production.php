@@ -13,7 +13,7 @@
 
     <ul class="production__list">
       <li class="production__item">
-        <img class="production__picture" src="/images/pic__modern-equipment.png" alt="Катринка">
+        <img class="production__picture" src="/images/pic__modern-equipment.png" alt="Картинка">
         <h3 class="production__title">Современное оборудование для производства прочной, износостойкой крошки
         </h3>
 
@@ -25,9 +25,8 @@
       </li>
 
       <li class="production__item">
-        <img class="production__picture" src="/images/pic__triple-cleaning.png" alt="Катринка">
-        <h3 class="production__title">Тройная очистка от&nbsp;текстиля и&nbsp;металлокорда<br>
-          Чистота до&nbsp;99,99%</h3>
+        <img class="production__picture" src="/images/pic__triple-cleaning.png" alt="картинка">
+        <h3 class="production__title">Тройная очистка от&nbsp;текстиля и&nbsp;металлокорда</h3>
 
         <div class="production__description">
           <ul>
@@ -39,7 +38,7 @@
       </li>
 
       <li class="production__item">
-        <img class="production__picture" src="/images/pic__durable-coatings.png" alt="Катринка">
+        <img class="production__picture" src="/images/pic__durable-coatings.png" alt="картинка">
         <h3 class="production__title">Для долговечных резиновых покрытий и&nbsp;изделий</h3>
 
         <div class="production__description">
@@ -52,7 +51,7 @@
       </li>
 
       <li class="production__item">
-        <img class="production__picture" src="/images/pic__financial-gain.png" alt="Катринка">
+        <img class="production__picture" src="/images/pic__financial-gain.png" alt="картинка">
         <h3 class="production__title">Ваша финансовая выгода в&nbsp;идеальном балансе сырья и&nbsp;качества фракций</h3>
 
         <div class="production__description">

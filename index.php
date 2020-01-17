@@ -31,7 +31,7 @@
 
       <?php include ("blocks/production.php");?>
 
-      <?php include("blocks/classification.php");?>
+      <?php include ("blocks/classification.php");?>
 
       <?php include ("blocks/benefits.php");?>
 
@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
