@@ -1,0 +1,90 @@
+.form {
+
+  padding-top: 75px;
+
+  padding-bottom: 75px;
+}
+
+.form .title {
+  margin-bottom: 0;
+}
+
+.main-form__container {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 49%;
+  margin-bottom: 30px;
+
+  flex-wrap: wrap;
+}
+
+.main-form__field,
+.main-form__textarea {
+  padding: 22px 10px;
+
+  color: #75759a;
+  border: none;
+  background: #ededed;
+}
+
+.main-form__label {
+  margin-top: 40px;
+}
+
+.main-form .button {
+  width: 49%;
+}
+
+@media (max-width: 1300px) {
+  .form {
+    padding-top: 5%;
+    padding-bottom: 6%;
+  }
+
+}
+
+
+@media (max-width: 830px) {
+  .main-form__label {
+    margin-bottom: 0;
+  }
+
+  .form {
+    padding-top: 10%;
+  }
+
+  .сlaсification__sale-subtitle {
+    max-width: 333px;
+
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .form .title {
+    margin-bottom: 20px;
+  }
+
+  .items-wrapper {
+    width: 100%;
+  }
+
+  .main-form__label {
+    margin-top: 2%;
+  }
+  .main-form {
+    margin: 2%;
+  }
+
+}

@@ -1,0 +1,105 @@
+.promo {
+  overflow: hidden;
+
+  padding-top: 30px;
+  padding-bottom: 0;
+
+  background-color: #e5e5e5;
+}
+
+.promo .container {
+  position: relative;
+
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.promo-picture {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 49%;
+  min-height: 288px;
+  padding: 26px;
+
+  background-color: #8a2f1c;
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url(../images/bg__promo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.we-can-do::before {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 120%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  padding: 10px 15px 6px;
+
+  content: '> 20 000 м2/год монтируем';
+  text-transform: uppercase;
+
+  color: #24429a;
+  border-radius: 0 0 20px 0;
+  background-color: #fff;
+}
+
+.promo-title {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 120%;
+
+  display: block;
+
+  width: 260px;
+  padding-top: 60%;
+
+  color: #fff;
+}
+
+.promo .classification__wrapper-button {
+  margin-left: 10px;
+}
+
+.promo .classification__sale-title {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 120%;
+
+  max-width: 415px;
+  margin-bottom: 20px;
+}
+
+.classification__sale-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 415px;
+  margin-bottom: 35px;
+
+  color: #fff;
+}
+
+
+@media (max-width: 1300px) {
+  .promo .classification__sale-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 120%;
+  }
+
+
+}
+
+@media (max-width: 744px) {
+  .promo {
+    display: none;
+  }
+
+}

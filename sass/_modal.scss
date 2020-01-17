@@ -1,0 +1,76 @@
+.modal {
+  position: fixed;
+    left: 0;
+    top: 10%;
+    right: 0;
+}
+
+// Инвиз для модалок
+#callback-modal {
+  display: none;
+}
+
+#ask-price-modal {
+  display: none;
+}
+
+
+.modal__container {
+  position: relative;
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 5% 7%;
+}
+
+.modal .title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.modal .items-wrapper {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.modal .main-form {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal .main-form__label {
+  margin-top: 25px;
+}
+
+.modal .button {
+  width: 70%;
+  max-width: 70%;
+}
+
+.modal .button--transparent {
+  font-size: 0;
+  line-height: 0;
+  border: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal .button--transparent:hover,
+.modal .button--transparent:focus {
+  background-color: #fff;
+}
+
+// Показывалки модалок
+
+.show-callback #callback-modal {
+  display: block;
+}
+
+.show-ask-price #show-ask-price {
+  display: block;
+}

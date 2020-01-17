@@ -1,0 +1,160 @@
+.footer {
+  background: steelblue linear-gradient(#24429a 50%, #2c52c2 50%) center center/100% 0.4em;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+
+.footer__title {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  line-height: 0;
+}
+
+.footer .work-time {
+  max-width: 250px;
+}
+
+.footer__social {
+  max-width: 300px;
+}
+
+.footer__messengers {
+  max-width: 330px;
+}
+
+.footer .button--white {
+  width: 100%;
+}
+
+
+.messengers__item--phone {
+  margin-left: 30px;
+}
+
+.footer__copiright {
+  background-color: #0e339e;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.footer__copiright p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 130%;
+  color: #ffffff6e;
+}
+
+.work-time ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.work-time li {
+  margin-bottom: 10px;
+
+}
+
+
+@media (max-width: 1300px) {
+  .footer {
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+  }
+
+  .footer .messengers__list {
+
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+  }
+
+  .footer .messengers__item--phone {
+    margin-left: 0;
+  }
+
+  .footer .work-time {
+    display: inline-block;
+    text-align: left;
+  }
+
+
+}
+
+
+@media (max-width: 740px) {
+  .footer__social {
+    max-width: 250px;
+  }
+
+  .footer__social-list li {
+    max-width: 25px;
+  }
+
+  .footer__title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 668px) {
+  .footer__social {
+    max-width: 215px;
+  }
+
+  .footer .work-time {
+    max-width: 165px;
+  }
+
+  .footer .header__contacts,
+  .footer .button--white {
+    display: none;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .footer {
+    padding-top: 10%;
+
+  }
+
+  .footer .work-time {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .footer__social {
+    max-width: 65%;
+    margin-bottom: 10px;
+  }
+
+}

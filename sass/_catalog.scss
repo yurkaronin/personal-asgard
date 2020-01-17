@@ -1,0 +1,151 @@
+.catalog {
+  padding-top: 75px;
+  background-color: #e5e5e5;
+  padding-bottom: 60px;
+}
+
+.catalog .title {
+  margin-bottom: 35px;
+}
+
+.catalog__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog-card {
+  background-color: #ffffff;
+  padding: 30px 15px 25px;
+
+  font-size: 14px;
+  line-height: 120%;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+
+.catalog-card:hover,
+.catalog-card:focus {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.product-in-stock::before {
+  content: 'В наличии';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #24429a;
+  color: #ffffff;
+  border-radius: 0px 0px 20px 0px;
+  font-size: 12px;
+  line-height: 120%;
+  text-transform: uppercase;
+  padding: 10px 15px 6px;
+}
+
+
+.catalog-card__photo {
+  margin-bottom: 11px;
+}
+
+.catalog-card__characteristics {
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.catalog-card__size {
+  color: #939393;
+  margin-bottom: 10px;
+}
+
+.catalog-card__size td {
+  padding-bottom: 15px;
+}
+
+.catalog-card__price {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 120%;
+  color: #24429a;
+}
+
+.catalog-card .button--transparent {
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 15px;
+
+}
+
+
+@media (max-width: 1300px) {
+  .catalog {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .catalog__list {
+    justify-content: space-around;
+  }
+
+}
+
+
+@media (max-width: 668px) {
+
+  .catalog {
+    padding-top: 10%;
+    padding-bottom: 7%;
+  }
+
+  .catalog-card {
+    padding: 35px 55px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 45%;
+
+  }
+
+}
+
+@media (max-width: 640px) {
+  .catalog-card {
+    padding: 5%;
+  }
+
+}
+
+@media (max-width: 530px) {
+  .catalog-card {
+    max-width: 35%;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .catalog-card {
+    font-size: 1em;
+  }
+
+
+  .catalog-card__price {
+    font-size: 1em;
+  }
+
+  .catalog-card {
+    max-width: 90%;
+    padding-top: 25px;
+  }
+
+}
