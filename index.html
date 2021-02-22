@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Асгард - производство и продажа резиновой крошки от производителя.</title>
+  <link rel="icon" sizes="192x192" href="favicon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- шапка сайта спозиционирована как флекс-элемент: слева   -->
+  <header class="header">
+    <!-- Обёртка контента внутри шапки сайта  -->
+    <div class="header__wrapper">
+      <!-- блок с логотипом и подписью к нему  -->
+      <div class="header__logo">
+        <img src="images/logo__asgard.svg" alt="Логотип" width="146" height="50">
+        <span class="header__logo-info">Производство резиновой крошки</span>
+      </div>
+
+      <!-- Блок с главным меню сайта  -->
+      <nav class="header__navigation">
+        <ul class="navigation__list">
+          <li><a class="navigation__link" href="#anchor-production">Производство</a></li>
+          <li><a class="navigation__link" href="#anchor-order-clacification">Калькулятор</a></li>
+          <li><a class="navigation__link" href="#anchor-benefits">Преимущества</a></li>
+          <li><a class="navigation__link" href="#anchor-catalog">Резиновая крошка</a></li>
+          <li><a class="navigation__link" href="#anchor-catalog">Пигменты</a></li>
+          <li><a class="navigation__link" href="#anchor-catalog">Клей</a></li>
+          <li><a class="navigation__link" href="#anchor-contact-form">Консультация</a></li>
+          <li><a class="navigation__link" href="#anchor-footer">Контакты</a></li>
+          <!-- блок для вывода в мобильном меню  -->
+          <li class="mobile-widget">
+            <span class="mobile-widget__title">Связаться с нами просто!</span>
+            <ul class="messengers__list">
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Телеграм">
+                  <img src="images/icon__telegram.svg" alt="Телеграм иконка" width="25" height="25">
+                </a>
+              </li>
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Вайбер">
+                  <img src="images/icon__viber.svg" alt="Wiber иконка" width="25" height="25">
+                </a>
+              </li>
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Ватсапп">
+                  <img src="images/icon__whatsapp.svg" alt="WhatsApp иконка" width="25" height="25">
+                </a>
+              </li>
+            </ul>
+            <a href="" class="mobile-widget__telephone" title="Наш телефонный номер">8 (918) 089-60-09</a>
+          </li>
+        </ul>
+
+        <button class="header__menu-button">
+          <span></span>
+        </button>
+      </nav>
+
+      <!-- Обёртка для позиционирования контейнера с контактами  -->
+      <div class="header-bottom-wrapper">
+        <!-- блок с мессенджерами и телефонным номером  -->
+        <div class="header__contacts">
+          <ul class="messengers__list">
+            <li class="messengers__item">
+              <a href="" class="messengers__link" title="Телеграм">
+                <img src="images/icon__telegram.svg" alt="Телеграм иконка" width="25" height="25">
+              </a>
+            </li>
+            <li class="messengers__item">
+              <a href="" class="messengers__link" title="Вайбер">
+                <img src="images/icon__viber.svg" alt="Wiber иконка" width="25" height="25">
+              </a>
+            </li>
+            <li class="messengers__item">
+              <a href="" class="messengers__link" title="Ватсапп">
+                <img src="images/icon__whatsapp.svg" alt="WhatsApp иконка" width="25" height="25">
+              </a>
+            </li>
+          </ul>
+          <a href="" class="messengers__link messengers__link--phone" title="Наш телефонный номер">
+            <img class="messengers__icon--phone" src="images/icon__phone.svg" alt="Иконка телефона" width="25"
+              height="25"><span>8 (918) 089-60-09</span>
+          </a>
+        </div>
+        <!-- кнопка вызова модального окна с формой -->
+        <button class="button--link">Заказать звонок</button>
+        <!-- блок с графиком работы организации  -->
+        <div class="work-time">
+          <b>Режим работы:</b> <br>
+          Понедельник-Пятница<br>
+          с&nbsp;9:00 до&nbsp;19:00
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- контент и подвал обёрнуты в div и спозиционированы как флекс элементы -->
+  <div class="page-wrapper">
+    <main class="main">
+
+      <section class="first-screen">
+        <!-- обёртка для выравнивания контента внутри блока  -->
+        <div class="container">
+          <h1 class="title">Резиновая крошка</h1>
+          <span class="first-screen__subtitle">с&nbsp;высоким содержанием каучука, 0%&nbsp;текстиля
+            по&nbsp;оптовой цене от&nbsp;производителя в Москве</span>
+          <!-- Список преимуществ производства резиновой крошки  -->
+          <ul class="advantages__list">
+            <li class="advantages__item icon-arrows">Тройная система очистки </li>
+            <li class="advantages__item icon-triad">13&nbsp;оттенков пигмента</li>
+            <li class="advantages__item icon-delivery">Доставка по&nbsp;РФ от&nbsp;3&nbsp;дней</li>
+          </ul>
+          <!-- кнопка вызова модального окна  -->
+          <a href="#anchor-order-classification" class="button">Получить коммерческое предложение</a>
+        </div>
+      </section>
+
+      <section class="production" id="anchor-production">
+        <div class="container">
+
+          <!-- <h2 class="title">Производство резиновой крошки высокого качества</h2> -->
+          <span class="subtitle">Мы используем систему <b>тройной очистки</b> от&nbsp;текстиля
+            и&nbsp;металлокорда</span>
+
+          <div class="production__video">
+            <a class="play-button">
+              <img src="/images/icon__play-button.svg" alt="" width="126" height="126">
+            </a>
+          </div>
+
+          <ul class="production__list">
+            <li class="production__item">
+              <img class="production__picture" src="/images/pic__modern-equipment.png" alt="Картинка">
+              <h3 class="production__title">Современное оборудование для производства прочной,
+                износостойкой крошки
+              </h3>
+
+              <div class="production__description">
+                <p>Автоматическая линия для измельчения изношенных шин с&nbsp;системой обдува.</p>
+                <p><b>Без повышенных скоростей и&nbsp;перегрева.</b> Поэтому сохраняется эластичность
+                  нашей крошки.</p>
+              </div>
+
+            </li>
+
+            <li class="production__item">
+              <img class="production__picture" src="/images/pic__triple-cleaning.png" alt="картинка">
+              <h3 class="production__title">Тройная очистка от&nbsp;текстиля и&nbsp;металлокорда</h3>
+
+              <div class="production__description">
+                <ul>
+                  <li>Вибрационные магнитные сепараторы для очистки от&nbsp;металлокорда</li>
+                  <li>Система очистки крошки &laquo;бочка&raquo; за&nbsp;счет комкования текстиля</li>
+                  <li>Очистка гранулы от&nbsp;текстиля на&nbsp;воздушных сепараторах</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="production__item">
+              <img class="production__picture" src="/images/pic__durable-coatings.png" alt="картинка">
+              <h3 class="production__title">Для долговечных резиновых покрытий и&nbsp;изделий</h3>
+
+              <div class="production__description">
+                <p>Резиновая крошка из&nbsp;крупногабаритных шин и&nbsp;шин легковых авто. Поэтому
+                  продукция из&nbsp;нашей
+                  крошки служит до
+                  25&nbsp;лет.</p>
+                <p>И&nbsp;соответствует современным эко-трендам.</p>
+                <p><u>Утилизация шин&nbsp;&mdash; это забота об&nbsp;экологии.</u></p>
+              </div>
+            </li>
+
+            <li class="production__item">
+              <img class="production__picture" src="/images/pic__financial-gain.png" alt="картинка">
+              <h3 class="production__title">Ваша финансовая выгода в&nbsp;идеальном балансе сырья
+                и&nbsp;качества фракций</h3>
+
+              <div class="production__description">
+                <p>Крошка исключительно из&nbsp;крупногабаритных шин неоправданно дорогая.</p>
+                <p>Баланс разных видов шин в&nbsp;сырье помогает нам держать высокое качество крошки
+                  фракций
+                  от&nbsp;0&nbsp;до&nbsp;6&nbsp;мм по&nbsp;лучшим
+                  рыночным ценам в&nbsp;России.</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <section class="classification" id="anchor-order-classification">
+        <div class="container">
+          <h2 class="title">Выберите ваш вид деятельности</h2>
+          <span class="subtitle">и получите от нас <b>персональное</b> коммерческое предложение с расчётом
+            стоимости на резиновую крошку в течении часа.</span>
+        </div>
+        <!-- форма с уточнениями заказа крошки  -->
+        <form action="" method="POST">
+
+          <input type="hidden" name="subject" value="форма с уточнениями заказа крошки">
+
+          <div class="container">
+
+            <ul class="classification__checkbox-list">
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-2" name="kind[]" value="Резиновые дорожные покрытия">
+                <label for="choice-form__checkbox-2">
+                  <img src="/images/bg__decision-checkbox-item-2.png" alt="картинка">
+                  <b>Резиновые дорожные покрытия:</b>
+                  резиновая плитка, бордюры, брусчатка, фибробетон, наливные полы, асфальтовый
+                  модификатор.
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-3" name="kind[]" value="Спорт">
+                <label for="choice-form__checkbox-3">
+                  <img src="/images/bg__decision-checkbox-item-3.png" alt="картинка">
+                  <b>Спорт:</b>
+                  Стадионы, футбольные поля, инвентарь (беговые дорожки, боксерские груши, резиновые
+                  маты).
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-4" name="kind[]" value="Детские">
+                <label for="choice-form__checkbox-4">
+                  <img src="/images/bg__decision-checkbox-item-4.png" alt="картинка">
+                  <b>Детские:</b>
+                  игровые комплексы, игрушки...
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-5" name="kind[]" value="Для автомобилей">
+                <label for="choice-form__checkbox-5">
+                  <img src="/images/bg__decision-checkbox-item-5.png" alt="картинка">
+                  <b>Для автомобилей:</b>
+                  покрышки, коврики, запчасти, отбойники...
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-6" name="kind[]"
+                  value="Обслуживание дорог и трубопроводов">
+                <label for="choice-form__checkbox-6">
+                  <img src="/images/bg__decision-checkbox-item-6.png" alt="картинка">
+                  <b>Обслуживание дорог и&nbsp;трубопроводов:</b>
+                  Ремонт мостов, муфты для ж/д шпал, опоры для трубопроводов в&nbsp;условиях вечной
+                  мерзлоты...
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-7" name="kind[]" value="Строительство">
+                <label for="choice-form__checkbox-7">
+                  <img src="/images/bg__decision-checkbox-item-7.png" alt="картинка">
+                  <b>Строительство:</b>
+                  Дороги и&nbsp;кровля, загородные дома, ландшафтный дизайн...
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-8" name="kind[]" value="Сорбент для нефтепроводов">
+                <label for="choice-form__checkbox-8">
+                  <img src="/images/bg__decision-checkbox-item-8.png" alt="картинка">
+                  <b>Сорбент для нефтепроводов:</b>
+                  Для тампонирования нефтяных скважин, сбора нефтепродуктов...
+                </label>
+              </li>
+
+              <li class="classification__checkbox-item">
+                <input type="checkbox" id="choice-form__checkbox-1" name="kind[]" value="Другое">
+                <label for="choice-form__checkbox-1">
+                  <img src="/images/bg__decision-checkbox-item-1.png" alt="картинка">
+                  <b>Другое</b>
+                  Прочие виды продукции и&nbsp;цели.
+                </label>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="classification__bottom-wrapper">
+            <div class="container">
+
+              <ul class="classification__select-list">
+                <li class="classification__select-item">
+                  <label for="choice-form__select-1"><b>Желаемый объем в&nbsp;кг.</b></label>
+                  <select name="volume" id="choice-form__select-1">
+                    <option value="до 1000 кг" selected>до&nbsp;1000</option>
+                    <option value="от 10 000 до 20 000 кг">от&nbsp;10&nbsp;000 до&nbsp;20&nbsp;000
+                    </option>
+                    <option value="от 20 000 кг">от&nbsp;20&nbsp;000</option>
+
+                  </select>
+                </li>
+
+                <li class="classification__select-item">
+                  <label for="choice-form__select-2"><b>Какая фракция в&nbsp;мм.</b></label>
+                  <select name="fraction" id="choice-form__select-2">
+                    <option value="фракция 0-1" selected>0-1</option>
+                    <option value="фракция 1-3">1-3</option>
+                    <option value="фракция 2-4">2-4</option>
+                  </select>
+                </li>
+
+                <li class="classification__select-item">
+                  <label for="choice-form__input-1"><b>Имя</b></label>
+                  <input type="text" name="name" value="" id="choice-form__input-2" autocomplete="off" required>
+                </li>
+                <li class="classification__select-item">
+                  <label for="choice-form__input-2"><b>Телефон</b></label>
+                  <input type="text" name="phone" value="" id="choice-form__input-2" autocomplete="off" required
+                    class="phone">
+                </li>
+              </ul>
+
+              <div class="classification__wrapper-button">
+                <span class="classification__sale-title">Скидка&nbsp;10%<br> новым клиентам</span>
+                <button type="submit" class="button--transparent">Получить скидку и КП</button>
+              </div>
+
+            </div>
+
+          </div>
+        </form>
+
+      </section>
+
+      <section class="benefits" id="anchor-benefits">
+        <div class="container">
+          <h2 class="visually-hidden">Выгодные условия поставки резиновой крошки для юр.лиц и&nbsp;частных
+            клиентов</h2>
+          <span class="title">Объёмы от&nbsp;5 тонн. Доставка по&nbsp;РФ. Счета с&nbsp;НДС
+            и&nbsp;без</span>
+          <ul class="benefits__list">
+            <li class="benefits__item icon-cargo">
+              <span class="benefits__item-title">1 500 тонн</span>
+              <p>Мы&nbsp;производим более полутора тысяч тонн крошки в&nbsp;год. Принимаем заказы любых
+                объемов</p>
+            </li>
+            <li class="benefits__item icon-car--blue">
+              <span class="benefits__item-title">100 тонн</span>
+              <p>100 тонн всегда в&nbsp;наличии на&nbsp;нашем складе в&nbsp;Москве&nbsp;&mdash; быстрая
+                отгрузка по&nbsp;РФ.
+                Мы&nbsp;быстрей большинства
+                конкурентов.</p>
+            </li>
+            <li class="benefits__item icon-processing">
+              <span class="benefits__item-title">52&nbsp;000 м<sup>2</sup></span>
+              <p>Из&nbsp;нашей крошки ежегодно производят более 52&nbsp;тыс. м<sup>2</sup> резиновых
+                покрытий. У&nbsp;нас есть
+                опыт и
+                репутация.</p>
+            </li>
+            <li class="benefits__item icon-document">
+              <span class="benefits__item-title">Крошка + пигмент + клей</span>
+              <p>Готовые решения для вас и&nbsp;вашего бизнеса. Крошка любых фракций.&nbsp;13&nbsp;видов
+                пигмента
+                и&nbsp;проверенный клей.</p>
+            </li>
+
+            <li class="benefits__item icon-rubber">
+              <span class="benefits__item-title">Максимум каучука</span>
+              <p>Используем в&nbsp;сырье не&nbsp;только легковые, но&nbsp;и&nbsp;крупногабаритные шины.
+                Это повышает
+                %&nbsp;каучука в&nbsp;крошке.</p>
+            </li>
+            <li class="benefits__item icon-saving">
+              <span class="benefits__item-title">10-20% ваша экономия</span>
+              <p>Вы&nbsp;сэкономите на&nbsp;клее, потому что мы&nbsp;очищаем крошку от&nbsp;текстильного
+                пуха. Она впитывает
+                минимум клея при
+                производстве резиновых изделий.</p>
+            </li>
+          </ul>
+          <div class="benefits__promo-block">
+
+            <div class="benefits__promo-wrapper">
+              <span class="promo-block__title">Консультация специалиста&nbsp;&mdash; бесплатно</span>
+              <p class="promo-block__text">Какая фракция и&nbsp;сколько крошки, красителей и&nbsp;клея
+                нужно для вашего
+                бизнеса и&nbsp;объема
+                работ?</p>
+              <a href="#anchor-contact-form" class="button--transparent">Получить консультацию</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="anchor-catalog">
+        <div class="container">
+          <h2 class="title">Оптовые цены на&nbsp;резиновую крошку</h2>
+          <ul class="catalog__list">
+            <li class="catalog-card product-in-stock">
+              <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
+              <table class="catalog-card__characteristics">
+                <tr>
+                  <th class="catalog-card__title" colspan="2">Резиновая крошка черная</th>
+                </tr>
+                <tr class="catalog-card__size">
+                  <td>Фракция:</td>
+                  <td>0-1</td>
+                </tr>
+                <tr class="catalog-card__price">
+                  <td>Цена:</td>
+                  <td>от&nbsp;20&nbsp;руб/кг</td>
+                </tr>
+              </table>
+              <button class="button--transparent ask-price__window-call">Запрос цены</button>
+            </li>
+            <li class="catalog-card product-in-stock">
+              <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
+              <table class="catalog-card__characteristics">
+                <tr>
+                  <th class="catalog-card__title" colspan="2">Резиновая крошка черная</th>
+                </tr>
+                <tr class="catalog-card__size">
+                  <td>Фракция:</td>
+                  <td>1-3</td>
+                </tr>
+                <tr class="catalog-card__price">
+                  <td>Цена:</td>
+                  <td>от&nbsp;20&nbsp;руб/кг</td>
+                </tr>
+              </table>
+              <button class="button--transparent ask-price__window-call">Запрос цены</button>
+            </li>
+            <li class="catalog-card product-in-stock">
+              <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
+              <table class="catalog-card__characteristics">
+                <tr>
+                  <th class="catalog-card__title" colspan="2">Резиновая крошка черная</th>
+                </tr>
+                <tr class="catalog-card__size">
+                  <td>Фракция:</td>
+                  <td>2-4</td>
+                </tr>
+                <tr class="catalog-card__price">
+                  <td>Цена:</td>
+                  <td>от&nbsp;19&nbsp;руб/кг</td>
+                </tr>
+              </table>
+              <button class="button--transparent ask-price__window-call">Запрос цены</button>
+            </li>
+            <li class="catalog-card product-in-stock">
+              <img class="catalog-card__photo" src="/images/catalog__item-1.png" alt="картинка резиновой крошки">
+              <table class="catalog-card__characteristics">
+                <tr>
+                  <th class="catalog-card__title" colspan="2">Резиновая крошка черная</th>
+                </tr>
+                <tr class="catalog-card__size">
+                  <td>Фракция:</td>
+                  <td>3-5</td>
+                </tr>
+                <tr class="catalog-card__price">
+                  <td>Цена:</td>
+                  <td>от&nbsp;19&nbsp;руб/кг</td>
+                </tr>
+              </table>
+              <button class="button--transparent ask-price__window-call">Запрос цены</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Запрос цены на крошку МОДАЛКА  -->
+      <div class="modal" id="ask-price-modal">
+        <div class="modal__container">
+          <h2 class="title">Отправить запрос на уточнение цены</h2>
+          <form class="main-form" action="" method="POST">
+            <input type="hidden" name="subject" value="Отправить запрос на уточнение цены">
+            <input type="hidden" name="product" value="">
+            <div class="items-wrapper">
+              <label class="main-form__label" for="ask-price-form__name">Введите имя</label>
+              <input class="main-form__field" type="text" id="ask-price-form__name" name="name" autocomplete="off"
+                required>
+              <label class="main-form__label" for="ask-price-form__telephone">Введите телефон</label>
+              <input class="main-form__field phone" type="tel" id="ask-price-form__telephone" name="phone"
+                autocomplete="off" required>
+              <label class="main-form__label" for="ask-price-form__email">Куда отправить КП?</label>
+              <input class="main-form__field" type="email" id="ask-price-form__email" name="email" autocomplete="off"
+                required>
+            </div>
+            <button class="button ask-price-button" type="submit">Узнать цену</button>
+          </form>
+          <button class="button--transparent" onclick="closeModal()">
+            <img src="/images/icon__close.svg" title="Закрыть окно" alt="Иконка крестика">
+          </button>
+        </div>
+      </div>
+
+      <section class="related-products">
+        <div class="container">
+          <h2 class="visually-hidden">Скипидар или его аналог под заказ</h2>
+          <div class="related-products__picture">
+            <img src="/images/pic__related-products.png" alt="Картинка товара">
+          </div>
+
+          <div class="related-products__description">
+            <span class="related-products__title">Уже выбрали резиновую крошку?</span>
+            <span class="related-products__subtitle">Не&nbsp;забудьте про скипидар или его аналог!</span>
+            <p class="related-products__text">Они используются для разведения битумных, масляных,
+              глифталевых, эпоксидных,
+              фенольных, пентафталевых лакокрасочных изделий, а&nbsp;так&nbsp;же очищает поверхности перед
+              покраской.
+              С&nbsp;его помощью можно
+              обезжирить плоскости из&nbsp;стекла, пластмассы и&nbsp;оргстекла. Он&nbsp;обладает
+              качественными свойствами.</p>
+            <a class="button">Выбрать из каталога</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="addition-catalog">
+        <div class="container">
+          <h2 class="title">Оптовые цены на&nbsp;пигменты и&nbsp;клей</h2>
+          <ul class="addition-catalog__list">
+            <li class="addition-catalog__item">
+              <img src="/images/pic__addition-catalog-1.png" alt="">
+              <div class="addition-catalog__description">
+                <h3>Пигменты</h3>
+                <p>Пигменты дают возможность изменять цвет резиновой крошки и&nbsp;последующих
+                  её&nbsp;продуктов, например,
+                  резиновой плитке. В&nbsp;состоянии поставки красители находятся в&nbsp;сухих
+                  порошкообразных фазах внешне
+                  напоминающие цветную муку.</p>
+                <a href="" class="button">Смотреть каталог</a>
+              </div>
+            </li>
+
+            <li class="addition-catalog__item">
+              <img src="/images/pic__addition-catalog-2.png" alt="">
+              <div class="addition-catalog__description">
+                <h3>Связующие/клей</h3>
+                <p>Универсальные однокомпонентные связующие смеси и&nbsp;жидкости позволяют достигать
+                  оптимальной вязкости
+                  и&nbsp;хорошая совместимость с&nbsp;различными видами фракционированных
+                  наполнителей. Связующее имеет
+                  различные модификации для различных условий применения.</p>
+                <a href="" class="button">Смотреть каталог</a>
+              </div>
+            </li>
+          </ul>
+          <div class="addition-catalog__button">
+            <a class="button--transparent" href="#anchor-contact-form">Получить консультацию</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container">
+          <h2 class="visually-hidden">Заявка на&nbsp;расчёт стоимости</h2>
+
+          <div class="promo-picture we-can-do">
+            <span class="promo-title">Профессиональный монтаж и&nbsp;шеф-монтаж</span>
+          </div>
+
+          <div class="classification__wrapper-button">
+            <span class="classification__sale-title">Оставьте заявку и&nbsp;получите стомость</span>
+            <span class="classification__sale-subtitle">резиновой крошки, клеящих компонентов
+              и&nbsp;пигментов для вашего вида бизнеса
+              и&nbsp;объема</span>
+            <a href="#anchor-order-classification" class="button--transparent">Рассчитать стоимость</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="form" id="anchor-contact-form">
+        <div class="container">
+          <h2 class="title">Форма обратной связи</h2>
+          <form class="main-form" action="" method="POST">
+            <input type="hidden" name="subject" value="Форма обратной связи">
+            <div class="main-form__container">
+
+              <div class="items-wrapper">
+                <label class="main-form__label" for="main-form__name">Введите имя</label>
+                <input class="main-form__field" type="text" id="main-form__name" name="name" autocomplete="off"
+                  required>
+                <label class="main-form__label" for="main-form__telephone">Введите телефон</label>
+                <input class="main-form__field phone" type="tel" id="main-form__telephone" name="phone"
+                  autocomplete="off" required>
+              </div>
+
+              <div class="items-wrapper">
+                <label class="main-form__label" for="main-form__text">Ваш вопрос:</label>
+                <textarea class="main-form__textarea" name="question" id="main-form__text" rows="8"></textarea>
+              </div>
+
+            </div>
+            <button class="button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="anchor-footer">
+      <div class="container">
+
+        <div class="work-time">
+          <ul>
+            <li><b>Наш офис:</b><br>Москва, ул. Краснобогатырская 2, стр 1</li>
+            <li><b>Режим работы:</b> <br>Понедельник-Пятница с&nbsp;9:00 до&nbsp;19:00</li>
+            <li><b>Телефоны:</b>8 (918) 089-60-09, 8 (918) 199-64-65</li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <span class="footer__title">Узнайте больше о производстве в соцсетях</span>
+          <ul class="footer__social-list">
+            <li><a href=""><img src="/images/icon__facebook.svg" alt="иконка фэйсбук">Фэйсбук</a></li>
+            <li><a href=""><img src="/images/icon__youtube.svg" alt="иконка фэйсбук">Youtube</a></li>
+            <li><a href=""><img src="/images/icon__instagram.svg" alt="иконка фэйсбук">Instagram</a></li>
+            <li><a href=""><img src="/images/icon__vk.svg" alt="иконка фэйсбук">Вконтакте</a></li>
+            <li><a href=""><img src="/images/icon__my-world.svg" alt="иконка фэйсбук">Мой МИР</a></li>
+            <li><a href=""><img src="/images/icon__ok.svg" alt="иконка фэйсбук">Одноклассники</a></li>
+            <li class="footer__social-item"><a href=""><img src="/images/icon__yandex-dzen.svg"
+                  alt="иконка фэйсбук">Яндекс
+                Дзен</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__messengers">
+          <div class="header__contacts">
+            <ul class="messengers__list">
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Телеграм">
+                  <img src="images/icon__telegram.svg" alt="Телеграм иконка" width="25" height="25">
+                </a>
+              </li>
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Вайбер">
+                  <img src="images/icon__viber.svg" alt="Wiber иконка" width="25" height="25">
+                </a>
+              </li>
+              <li class="messengers__item">
+                <a href="" class="messengers__link" title="Ватсапп">
+                  <img src="images/icon__whatsapp.svg" alt="WhatsApp иконка" width="25" height="25">
+                </a>
+              </li>
+              <li class="messengers__item--phone">
+                <a href="" class="messengers__link messengers__link--phone" title="Наш телефонный номер">
+                  <img class="messengers__icon--phone" src="images/icon__phone.svg" alt="Иконка телефона" width="25"
+                    height="25"><span>8 (918) 089-60-09</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="button--white" id="callback__window-call">Заказать звонок</button>
+        </div>
+
+      </div>
+
+    </footer>
+    <div class="footer__copiright">
+      <div class="container">
+        <p>© «АСГАРД». Производство резиновой крошки. Любое копирование материалов сайта, без указания
+          источника, запрещена
+          согласно 4ч, раздел 7 Гражданского Кодекса РФ. По всем вопросам сотрудничества пишите на почту
+          указанную на сайте.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Заказ обратного звонка - модалка  -->
+  <div class="modal" id="callback-modal">
+    <div class="modal__container">
+      <h2 class="title">Заказ звонка</h2>
+      <form class="main-form" action="" method="POST">
+        <input type="hidden" name="subject" value="Заказ звонка">
+        <div class="items-wrapper">
+          <label class="main-form__label" for="callback-form__name">Введите имя</label>
+          <input class="main-form__field" type="text" id="callback-form__name" name="name" autocomplete="off" required>
+          <label class="main-form__label" for="callback-form__telephone">Введите телефон</label>
+          <input class="main-form__field phone" type="tel" id="callback-form__telephone" name="phone" autocomplete="off"
+            required>
+        </div>
+        <button class="button" type="submit">Перезвоните мне</button>
+      </form>
+      <button class="button--transparent" onclick="closeModal()">
+        <img src="/images/icon__close.svg" title="Закрыть окно" alt="Иконка крестика">
+      </button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
